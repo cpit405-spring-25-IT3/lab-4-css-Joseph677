@@ -5,10 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 4</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
 
+    <form>
+        <label for="fname">First name:</label>
+        <input id="fname" type="text" placeholder="Enter your first name">
+        <label for="lname">Last name:</label>
+        <input id="lname" type="text" placeholder="Enter your last name">     
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email">
+        <label for="phonenum">Phone number:</label>
+        <input id="phonenum" type="tel" placeholder="Enter your phone number">
+        <label for="make">Make:</label>
+        <select>
+            <option>Toyota</option>
+            <option>Honda</option>
+            <option>Hyundai</option>
+            <option>BMW</option>
+        </select>
+        <label for="model">Model:</label>
+        <select>
+            <option>Camry</option>
+            <option>Corolla</option>
+            <option>Civic</option>
+            <option>Elentra</option>
+            <option>Sonata</option>
+            <option>BMW 330i</option>
+            <option>BMW 228i</option>
+        </select>
+        <label for="year">Year:</label>
+        <input id="year" type="number" placeholder="Year" min="1900" max="2025">
+        <label for="date">Date:</label>
+        <input id="date" type="date" placeholder="mm/dd/yyyy">
+        <label for="spareparts">Spare parts:</label>
+        <input id="spareparts" type="text" placeholder="Enter the spare part you need">
+        <label for="quantity">Quantity:</label>
+        <input id="quantity" type="number" placeholder="Enter the quantity of the spare parts you need" min="1" max="10">
+        <label for="commect">Comment:</label>
+        <textarea cols="3" rows="3"></textarea>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 
 </html>
